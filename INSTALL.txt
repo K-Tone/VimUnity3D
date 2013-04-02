@@ -1,0 +1,17 @@
+INSTALL
+-------
+
+Clone the latest version from git.
+
+Patch your vimrc file with theese changes:
+
+(support for :make command)
+set makeprg=d:\xxx\vimunity\go.cmd\ %:p
+
+(support for Unity error format)
+set errorformat+=%f(%l\\,%c):%m
+
+Then just type :make and enjoy
+
+-Anthony
+anthony.yakovlev@gmail.com
